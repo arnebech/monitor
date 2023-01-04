@@ -1,0 +1,5 @@
+#compdef monitor
+
+local -a subcmds
+subcmds=('normal:normal brightness' 'medium:medium brightness' 'dim:low brightness')
+_describe 'command' subcmds
